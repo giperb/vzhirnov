@@ -1,5 +1,5 @@
 /**
- * CalculateTest
+ * CalculateTest.
  *
  * @author Vladimir Zhirnov (maito:harabe@yandex.ru)
  * @version $Id$
