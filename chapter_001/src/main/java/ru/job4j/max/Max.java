@@ -12,7 +12,7 @@ package ru.job4j.max;
 	* max.
 	* @param first number
 	* @param second number
-	* @return maxNum - максимальное число
+	* @return max number
 	*/
  	public int max(int first, int second) {
  		return first > second ? first : second;

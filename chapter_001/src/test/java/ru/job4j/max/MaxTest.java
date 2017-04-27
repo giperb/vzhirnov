@@ -14,7 +14,7 @@
     @Test
     public void testMaxOneValue() {
  		Max maxValueOne = new Max();
- 		maxValueOne.max(1, 2);
+ 		maxValueOne.max(2, 1);
  	}
  	/**
  	* Test 2 add.
@@ -22,6 +22,6 @@
     @Test
     public void testMaxTwoValue() {
  		Max maxValueTwo = new Max();
- 		maxValueTwo.max(3, 2);
+ 		maxValueTwo.max(1, 2);
  	}
  }
