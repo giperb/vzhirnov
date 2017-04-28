@@ -1,5 +1,10 @@
  package ru.job4j.max;
+ 
  import org.junit.Test;
+ 
+ import static org.hamcrest.core.Is.is;
+ import static org.junit.Assert.assertThat;
+ 
  /**
  * Test.
  *
@@ -9,19 +14,12 @@
  */
  public class MaxTest {
  	/**
- 	* Test 1 add.
+ 	* Test add.
  	*/
     @Test
-    public void testMaxOneValue() {
+    public void testMaxValue() {
  		Max maxValueOne = new Max();
- 		maxValueOne.max(2, 1);
- 	}
- 	/**
- 	* Test 2 add.
- 	*/
-    @Test
-    public void testMaxTwoValue() {
- 		Max maxValueTwo = new Max();
- 		maxValueTwo.max(1, 2);
+ 		int result = maxValue.max(2, 1);
+ 		assertThat(result, is(2));
  	}
  }
