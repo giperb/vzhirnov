@@ -19,4 +19,13 @@
  		int result = maxValue.max(2, 1);
  		assertThat(result, is(2));
  	}
+ 	/**
+ 	* Test2 add.
+ 	*/
+ 	@Test
+ 	public void testMaxValue2() {
+ 		Max maxValue2 = new Max();
+ 		int result2 = maxValue2.max(3, 2, 1);
+		assertThat(result2, is(3));
+ 	}
  }
