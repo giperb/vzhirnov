@@ -25,6 +25,6 @@ package ru.job4j.max;
 	* @return max number
 	*/
  	public int max(int first, int second, int third) {
- 		return Math.max(first, Math.max(second, third));
+ 		return max(first, max(second, third));
  	}
  }
