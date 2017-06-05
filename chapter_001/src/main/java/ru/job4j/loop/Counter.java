@@ -14,13 +14,11 @@ package ru.job4j.loop;
 	* @param second number
 	* @return the sum of even numbers
 	*/
- 	public int add(int first, int second) {
+ 	public int add(int start, int finish) {
  		int result = 0;
- 		int start = first;
- 		int finish = second;
  			for (int i = start; i <= finish; i++) {
  			if (i % 2 == 0) {
- 			result = result + i;
+ 			result += i;
  			}
  		}
  		return result;
