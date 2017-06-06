@@ -10,8 +10,8 @@ package ru.job4j.loop;
  public class Counter {
  	/**
 	* max.
-	* @param first number
-	* @param second number
+	* @param start number
+	* @param finish number
 	* @return the sum of even numbers
 	*/
  	public int add(int start, int finish) {
