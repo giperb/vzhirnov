@@ -1,5 +1,5 @@
 /**
-* Package for Counter, Factorial tasks.
+* Package for Counter, Factorial, Board tasks.
 *
 * @author Vladimir Zhirnov (mailto:harabe@yandex.ru)
 * @version $Id$
