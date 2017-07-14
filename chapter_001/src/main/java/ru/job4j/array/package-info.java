@@ -1,5 +1,5 @@
 /**
-* Package for Turn task.
+* Package for Turn, BubbleSort tasks.
 *
 * @author Vladimir Zhirnov (mailto:harabe@yandex.ru)
 * @version 0.1

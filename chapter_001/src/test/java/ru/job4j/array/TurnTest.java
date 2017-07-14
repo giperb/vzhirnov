@@ -9,8 +9,8 @@ import static org.junit.Assert.assertThat;
  * Programm TurnTest.
  *
  * @author Vladimir Zhirnov (harabe@yandex.ru)
- * @version 0.1
  * @since 11.07.2017
+ * @version 0.1
  */
  	public class TurnTest {
  	/**
