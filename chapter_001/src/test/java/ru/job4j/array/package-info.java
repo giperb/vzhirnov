@@ -1,5 +1,5 @@
 /**
-* Package for TurnTest, BubbleSortTest tasks.
+* Package for TurnTest, BubbleSortTest, RotateArrayTest tasks.
 *
 * @author Vladimir Zhirnov (mailto:harabe@yandex.ru)
 * @version 0.1
