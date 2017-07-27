@@ -1,5 +1,5 @@
 /**
-* Package for Turn, BubbleSort, RotateArray tasks.
+* Package for Turn, BubbleSort, RotateArray, ArrayDuplicate tasks.
 *
 * @author Vladimir Zhirnov (mailto:harabe@yandex.ru)
 * @version 0.1
