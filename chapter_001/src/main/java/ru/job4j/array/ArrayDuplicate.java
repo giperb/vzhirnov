@@ -15,16 +15,19 @@ import java.util.Arrays;
  	 * @return an array without duplicates
  	 */
  	public String[] remove(String[] array) {
- 		for (int i = 0; i < array.length; i++) {
- 			for (int j = array.length - 1; j > i; j--) {
- 				if (array[i] == array[j] && array[j] != array[array.length - 1]) {
- 					array[j] = array[array.length - 1];
- 					array = Arrays.copyOf(array, array.length - 1);
- 				} else if (array[i] == array [j] && array[j] == array[array.length - 1]) {
- 						array = Arrays.copyOf(array, array.length - 1);
- 					}
- 			}
+ 	String temp = "";
+	int counter = 0;
+		for (int i = 0; i < array.length - counter; i++) {
+	    	for (int j = i + 1; j < array.length - counter; j++) {
+				if (array[j].equals(array[i])) {
+		    	temp = array[j];
+		    	array[j] = array[array.length - 1 - counter];
+		    	array[array.length - 1 - counter] = array[j];
+		    	counter++;
+		    	j--;
+				}
+	    	}
  		}
- 	return Arrays.copyOf(array, array.length);
+ 	return Arrays.copyOf(array, array.length - counter);
  	}
  }
