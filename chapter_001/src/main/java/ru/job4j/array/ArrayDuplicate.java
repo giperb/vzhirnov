@@ -15,12 +15,10 @@ import java.util.Arrays;
  	 * @return an array without duplicates
  	 */
  	public String[] remove(String[] array) {
- 	String temp = "";
 	int counter = 0;
 		for (int i = 0; i < array.length - counter; i++) {
 	    	for (int j = i + 1; j < array.length - counter; j++) {
 				if (array[j].equals(array[i])) {
-		    	temp = array[j];
 		    	array[j] = array[array.length - 1 - counter];
 		    	array[array.length - 1 - counter] = array[j];
 		    	counter++;
